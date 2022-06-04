@@ -1,0 +1,37 @@
+name: elki_testovoe
+description: Interview test task
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.3
+  dartz: ^0.10.1
+  json_annotation: ^4.0.1
+  http: ^0.13.4
+  cubit: ^0.1.2
+  flutter_bloc: ^8.0.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.1.3
+  build_runner: ^2.0.4
+  carousel_slider: ^4.1.1
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/no_foto/no_foto.png
